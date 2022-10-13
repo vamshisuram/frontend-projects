@@ -1,0 +1,10 @@
+input {
+  width: 300px;
+}
+
+.pie {
+  width: 300px;
+  height: 300px;
+  clip-path: circle(100px at center);
+  background-image: conic-gradient(green var(--val), lightgreen 0);
+}
